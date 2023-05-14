@@ -11,7 +11,7 @@ import SearchFeed from './Component/searchFeed/SearchFeed'
 const App = () => {
   return (
     <BrowserRouter>
-      <Box backgroundColor={'#636363'}>
+      <Box backgroundColor={'white'}>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Feed/>} />

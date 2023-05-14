@@ -18,7 +18,7 @@ a {
 ::-webkit-scrollbar-thumb {
   background-color: rgb(114, 113, 113);
   border-radius: 10px;
-  height: 200px;
+  height: 20px;
 }
 
 ::-webkit-scrollbar-track {
@@ -26,12 +26,12 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
-  color: white !important;
+  background-color: #3f3e3e !important;
+  /* color: red !important; */
 }
 
 .category-btn:hover span{
-  color: white !important;
+  color: #0f0f0f !important;
 }
 
 .react-player {
@@ -50,12 +50,11 @@ a {
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   cursor:pointer;
-  background: transparent;
+  background: #afafaf;
   outline: none;
   border: none;
-
   padding: 7px 15px;
   margin: 10px 0px;
   border-radius: 20px;
